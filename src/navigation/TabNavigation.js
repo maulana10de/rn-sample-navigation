@@ -16,7 +16,6 @@ export class TabNavigation extends Component {
         screenOptions={({route}) => ({
           tabBarIcon: ({color}) => {
             let iconName;
-
             if (route.name === 'Home') {
               iconName = 'home';
             } else if (route.name === 'Profile') {

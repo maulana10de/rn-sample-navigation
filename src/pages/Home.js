@@ -12,7 +12,7 @@ import {connect} from 'react-redux';
 import CardRestaurant from '../components/Card';
 import {Header, Icon} from 'react-native-elements';
 import {Card, CardItem} from 'native-base';
-// import {onKeepLogin} from '../actions';
+
 import {StackActions} from '@react-navigation/native';
 
 class Home extends React.Component {

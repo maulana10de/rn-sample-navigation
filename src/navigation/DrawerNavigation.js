@@ -3,7 +3,6 @@ import {createDrawerNavigator} from '@react-navigation/drawer';
 import TabNav from './TabNavigation';
 import Setting from '../pages/Setting';
 import {Icon} from 'react-native-elements';
-import {Left} from 'native-base';
 
 const Drawer = createDrawerNavigator();
 
